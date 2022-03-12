@@ -1106,5 +1106,6 @@
 
   <include name="bliss.xml" />
   <include name="los.xml" />
+  <include name="device.xml" />
 
 </manifest>
