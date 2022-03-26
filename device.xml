@@ -13,19 +13,12 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" /> 
- 
- <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="twelve"
-          review="gerrit.pixelexperience.org" />
 
-<project name="BlackDeaths/device_taimen" path="device/google/taimen" remote="github" revision="bliss-12.0"/>
-<project name="BlackDeaths/device_google_wahoo" path="device/google/wahoo" remote="github" revision="bliss-12.0"/>
+<project name="BlackDeaths/device_google_taimen" path="device/google/taimen" remote="github" revision="bliss-12"/>
+<project name="ArrowOS-Devices/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="arrow-12.1"/>
  
 <project name="ArrowOS-Devices/android_vendor_google_wahoo" path="vendor/google" remote="github" revision="arrow-12.1"/>
-<project name="PixelExperience-Devices/kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="twelve"/>
- 
- <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pixel" />
+<project name="ArrowOS-Devices/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="arrow-12.1"/>
 
 <!--<project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
 <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
